@@ -1,0 +1,122 @@
+/* men.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a2e; /* Dark navy blue */
+}
+
+header {
+  background-color: #0f3460; /* Main header color */
+  color: #fff;
+  padding: 10px 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.header a {
+  color: #e94560; /* Bright pink for links */
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.header a:hover {
+  color: #f9a94d; /* Gold hover color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #0f3460; /* Main container color */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #e94560; /* Bright pink for headings */
+}
+
+.perfume {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.perfume-item {
+  width: calc(50% - 20px); /* Adjust as needed */
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #889ab6; /* Light blue for perfume items */
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.perfume-item img {
+  width: 100%; /* Set width to fill container */
+  height: 200px; /* Set fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+  border-radius: 5px;
+}
+
+.perfume-item h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: #0f3460; /* Main item heading color */
+}
+
+.perfume-item p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.perfume-item form {
+  margin-top: 10px;
+}
+
+.perfume-item input[type="submit"] {
+  display: inline-block;
+  width: auto;
+  padding: 10px 20px;
+  background-color: #e94560; /* Bright pink for button */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.perfume-item input[type="submit"]:hover {
+  background-color: #f9a94d; /* Gold hover color */
+  color: #0f3460; /* Main color for text on hover */
+}
+
+.name {
+  color: #e94560; /* Bright pink for names */
+  text-align: center;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: 3px solid #0f3460; /* Main border color */
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+#searchInput:hover {
+  background: #0f3460; /* Main color on hover */
+  color: #fff;
+  border: 3px solid #0f3460; /* Main border color */
+}
